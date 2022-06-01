@@ -13,9 +13,9 @@ phases:
     commands:
       - echo in the pre_build phase...
       - pip3 install -r requirements.txt
-  build:
-    commands:
-      - echo Build started on `date`
-  post_build:
-    commands:
-      - echo Build completed on `date`
+#   build:
+#     commands:
+#       - echo Build started on `date`
+#   post_build:
+#     commands:
+#       - echo Build completed on `date`
