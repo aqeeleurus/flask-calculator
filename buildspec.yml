@@ -19,8 +19,8 @@ phases:
 #   post_build:
 #     commands:
 #       - echo Build completed on `date`
-artifacts:
-  type: zip
-  files: 
-  paths:
-    - '*'
+# artifacts:
+#   type: zip
+#   files: 
+#   paths:
+#     - '*'
