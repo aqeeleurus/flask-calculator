@@ -4,9 +4,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /
+    destination: /home/ubuntu
 permissions:
-  - object: /
+  - object: /home/ubuntu
     mode: 755
     owner: ubuntu
     group: ubuntu
