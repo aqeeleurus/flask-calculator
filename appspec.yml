@@ -13,13 +13,10 @@ permissions:
 hooks:
   BeforInstall:
     - location: ./fix_previleges.sh
-      timeout: 50
       runas: root
   AfterInstall:
     - location: ./installapp.sh
-      timeout: 50
       runas: root
   ApplicationStart:
     - location: ./applicationstart.sh
-      timeout: 50
       runas: root
