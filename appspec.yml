@@ -14,8 +14,8 @@ hooks:
   AfterInstall:
     - location: installapp.sh
       timeout: 50
-      runas: ubuntu
+      runas: root
   ApplicationStart:
     - location: applicationstart.sh
       timeout: 50
-      runas: ubuntu
+      runas: root
