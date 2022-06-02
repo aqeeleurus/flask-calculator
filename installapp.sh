@@ -1,3 +1,4 @@
+source /home/ubuntu/.bash_profile
 #!/bin/bash
 cd /home/ubuntu
 sudo apt update
