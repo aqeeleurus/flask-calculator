@@ -7,11 +7,12 @@ files:
     destination: /home/ubuntu
 permissions:
   - object: /home/ubuntu
+    mode: 755
     owner: ubuntu
     group: ubuntu
 hooks:
   AfterInstall:
-    - location: installapp
+    - location: installapp.sh
       timeout: 50
   ApplicationStart:
     - location: applicationstart.sh
