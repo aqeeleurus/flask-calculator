@@ -1,5 +1,5 @@
 #!/bin/bash
-source /home/ubuntu/.profile
+sudo source /home/ubuntu/.profile
 cd /home/ubuntu
 sudo apt update
 sudo apt install software-properties-common
