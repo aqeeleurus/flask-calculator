@@ -11,7 +11,7 @@ permissions:
     group: ubuntu
 hooks:
   AfterInstall:
-    - location: installapp.sh
+    - location: installapp
       timeout: 50
   ApplicationStart:
     - location: applicationstart.sh
