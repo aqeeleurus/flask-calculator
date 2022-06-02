@@ -5,4 +5,5 @@ sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt update
 sudo apt install python3 -y
+sudo apt install python3-pip
 pip3 install -r requirements.txt
